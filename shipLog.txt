@@ -1,0 +1,138 @@
+
+<--- --- --- --- --- --- ---> 
+
+Command: Start log.
+Response: Creating new ship
+Result: Ship is created.
+
+Command: Get ship info
+Response: 
+Result: Printing parameters...
+Hull: Material is steel, length is 50.0 м,  tonnage is 275.0 tonns, amount of cabins is 20
+Crew: Crew consists of 10 persons
+Engine: Engine type is Diesel, power is 5000 hp.
+Antenna: Transmittion frequency is 2400 HZ
+
+Command: Changing engine
+Response: Type: йцукен, Power: 1234
+Result: Engine changed
+
+Command: Changing crew quantity
+Response: 54
+Result: Error: forbidden amount
+
+Command: Changing crew quantity
+Response: 23
+Result: Crew changed
+
+Command: Move forward
+Response: Engine full power
+Result: Ship moves forward
+
+Command: Turn south
+Response: Turning according to compass
+Result: Ship is heading to south
+
+Command: Changing speed
+Response: 9
+Result: Speed set at 9 knots
+
+Command: Cheking hull integriry
+Response: 
+Result: Integrity got lower
+
+Command: Turn north
+Response: Turning according to compass
+Result: Ship is heading to north
+
+Command: Changing speed
+Response: 8
+Result: Speed set at 8 knots
+
+Command: Turn north
+Response: Turning according to compass
+Result: Ship is heading to north
+
+Command: Changing speed
+Response: 9
+Result: Speed set at 9 knots
+
+Command: Cheking hull integriry
+Response: 
+Result: Integrity got lower
+
+Command: Hull is damaged!
+Response: 
+Result: Sending SOS signal
+End log
+
+<--- --- --- --- --- --- ---> 
+
+Command: Start log.
+Response: Creating new ship
+Result: Ship is created.
+
+Command: Get ship info
+Response: 
+Result: Printing parameters...
+Hull: Material is steel, length is 50.0 м,  tonnage is 275.0 tonns, amount of cabins is 20
+Crew: Crew consists of 10 persons
+Engine: Engine type is Diesel, power is 5000 hp.
+Antenna: Transmittion frequency is 2400 HZ
+
+Command: Changing engine
+Response: Type: ArcaneMagic, Power: 999999999
+Result: Engine changed
+
+Command: Changing crew quantity
+Response: 44
+Result: Crew changed
+
+Command: Cannot adjust speed
+Response: 
+Result:  Engine is off.
+
+Command: Move forward
+Response: Engine full power
+Result: Ship moves forward
+
+Command: Changing speed
+Response: 5
+Result: Speed set at 5 knots
+
+Command: Turn east
+Response: Turning according to compass
+Result: Ship is heading to east
+
+Command: Driftway
+Response: Engine zero power
+Result: Ship drifts
+
+Command: Cannot adjust speed
+Response: 
+Result:  Engine is off.
+
+Command: Move forward
+Response: Engine full power
+Result: Ship moves forward
+
+Command: Turn west
+Response: Turning according to compass
+Result: Ship is heading to west
+
+Command: Turn south
+Response: Turning according to compass
+Result: Ship is heading to south
+
+Command: Return to port
+Response: Need to determine location
+Result: Turning on antenna
+
+Command: Send coordinates
+Response: Current location is determined 
+Result: location  
+
+Command: Return to port
+Response: Turning towards port
+Result: Ship is returning to port
+End log
